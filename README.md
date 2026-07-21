@@ -53,6 +53,10 @@ those separately, and run your finalists past a **native speaker** of each targe
 Improvements are very welcome — especially language and cultural knowledge that helps the
 skill spot problems it might miss. See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+Know a name that went wrong (or almost did) across cultures? [Share it in our welcome
+discussion](https://github.com/elfarajnejad-commits/business-name-fit/discussions/1) —
+no programming needed.
+
 ## License
 
 Released under the [MIT License](./LICENSE) — free to use, share, and build on.
