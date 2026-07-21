@@ -1,0 +1,44 @@
+name: "🌍 Share a tricky name"
+description: "A real name that works in one language but goes wrong in another — the best kind of test case."
+title: "[Name]: "
+labels: ["tricky-name", "language-knowledge"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Real-world examples are the most valuable contribution to this skill.
+        You don't need to be a programmer to fill this in.
+  - type: input
+    id: name
+    attributes:
+      label: The name
+      description: The business/brand/product name (original script welcome, plus a Latin transliteration if applicable).
+      placeholder: "e.g. نگار / Negar"
+    validations:
+      required: true
+  - type: input
+    id: origin
+    attributes:
+      label: Origin language / culture
+      placeholder: "e.g. Persian / Iran"
+    validations:
+      required: true
+  - type: input
+    id: market
+    attributes:
+      label: Market where it causes trouble
+      placeholder: "e.g. US / English-speaking"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What goes wrong
+      description: Bad meaning, slang, look-alike word, pronunciation trap, spelling issue — explain the why so others can learn from it.
+    validations:
+      required: true
+  - type: textarea
+    id: skill-behavior
+    attributes:
+      label: What did the skill say? (optional)
+      description: If you already ran the name through the skill, paste what it caught or missed.

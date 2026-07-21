@@ -1,0 +1,29 @@
+name: "💡 Skill improvement"
+description: "The skill missed something, gave a wrong verdict, or its instructions could be worded better."
+title: "[Improvement]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of improvement?
+      options:
+        - The skill missed a problem with a name
+        - The skill flagged something incorrectly
+        - Better wording for the skill's instructions
+        - New check or capability idea
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe it
+      description: What happened (or what's missing), and what you'd expect instead.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example name(s) to reproduce (optional)
+      description: A concrete name + origin + target market makes the issue much easier to act on.
