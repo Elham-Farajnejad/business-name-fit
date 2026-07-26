@@ -1,0 +1,17 @@
+# OS cruft — this repo takes contributions from non-programmers on mixed platforms
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python (build.py)
+__pycache__/
+*.py[cod]
+
+# Note: business-name-fit.skill IS committed on purpose — it is the one-click
+# install artifact. Regenerate it with `python build.py` after editing the
+# business-name-fit/ folder.

@@ -1,6 +1,6 @@
 ---
 name: business-name-fit
-description: Help a founder pick or vet a business, startup, or product name that stays true to their cultural origin while working well in the markets they want to sell into. Use whenever someone is naming a company, brand, or product and cares about how it lands across languages and regions — for example a name that sounds right at home but might read oddly to English speakers, or an authentic name they want to check before committing. Trigger this for any request about choosing a business name, checking if a name "works" abroad, spotting bad meanings in other languages, or making a name sound trustworthy in a specific market — even if the person doesn't say the word "skill".
+description: Suggest, pick, or vet a business, startup, or product name that stays true to the founder's cultural origin while working professionally in the markets they want to sell into. Use whenever someone is naming a company, brand, or product and cares about how it lands across languages and regions — for example a name that sounds right at home but might read oddly to English speakers, or an authentic name they want to check before committing. Trigger this for any request about choosing a business name, checking if a name "works" abroad, spotting bad meanings in other languages, or making a name sound trustworthy in a specific market — even if the person doesn't say the word "skill".
 ---
 
 # Business Name Fit
@@ -34,19 +34,69 @@ Run every candidate name through these checks, once per target market:
 - **Look-alike** — Does it resemble an existing word that changes the impression (e.g. framåt → "frame")?
 - **Pronunciation** — Can people in the target market say it easily, or does it get mangled?
 - **Spelling** — After hearing it, can they spell it? Watch for tricky letter combos and origin-language diacritics (å, ø, ç, etc.) that won't survive in English.
+- **Distinctiveness** — Where does it sit on the WIPO scale: generic, descriptive, deceptive, suggestive, arbitrary, or coined? Generic and descriptive names are weak and often cannot be registered at all — say so plainly, because a founder can build a business on such a name and still never own it. Reject deceptive names outright. Judge this **separately per market**: a word that is plainly descriptive at home may be arbitrary and strong abroad, and the reverse.
+- **Sound** — Say it aloud. Does its sound-feel match the field? Front vowels (ee, i) read light and quick; back vowels (o, u) solid and heavy; hard plosives (p, t, k, b, d, g) sharp and firm; soft fricatives and nasals (s, f, m, l, n) smooth and gentle. Note honestly that these associations come mainly from English-language research and do not transfer automatically to other languages.
 - **Tone fit** — Does it feel trustworthy and appropriate for that industry and that market?
 - **Origin authenticity** — Does it still genuinely reflect the founder's origin, or has it been flattened into something generic?
+
+Also weigh the classic evaluation criteria: relevance to the category, connotations,
+overall liking, ease of recognition, distinctiveness, and ease of recall.
+
+`references/naming-research.md` holds the sources and reasoning behind these checks —
+read it when a founder asks *why*, or when a name category or sound effect needs
+explaining in depth. `examples/worked-examples.md` shows three full cases end to end
+(a name fixed, a name approved, a name rejected) — read it when you need a model for how
+a finished analysis should read.
 
 Be honest about confidence. If unsure whether a name carries an odd meaning or slang sense in a language, say so plainly and recommend a native-speaker check before the founder commits.
 
 ## Step 3 — If suggesting new names
 
-Build candidates rooted in the **origin** language and culture, not generic invented words:
+Every suggestion must satisfy **three constraints at once**: rooted in the origin,
+professional for the industry, and clean in the target market. A name that meets only
+two of the three is not a valid suggestion — drop it and find another.
+
+**3a. Write the naming brief first — before generating anything.**
+Founders (and firms generally) tend to work out what they actually want from a name only
+*after* they have fallen for a candidate, which corrupts the judgement. So write it down
+first, in one or two lines: what the business promises its customers, what feeling that
+promise needs, and what the name must therefore do. Then pick origin words that carry
+that meaning. Examples of the logic:
+- Childcare → warmth, safety, gentleness. Not power or speed.
+- Consultancy, law, finance → competence, stability, discretion. Not cuteness.
+- Art authentication, certification, security → authenticity, precision, trust.
+- Health → care, cleanliness, calm.
+- Technology → clarity, motion, forwardness.
+
+**3b. Draw the raw material from the origin language.**
 - Real words, roots, names, places, or concepts from the origin language.
-- Meaningful cultural ideas (nature, values, mythology) translated into short, sayable forms.
+- Meaningful cultural ideas (nature, values, mythology) shaped into short, sayable forms.
 - Light blends or coined words that keep an origin flavor.
 
-Keep them pronounceable and spellable in the target market, then run each through the Step 2 checks. For every suggestion, give its origin meaning in one line.
+Prefer a word whose **literal meaning is itself the value proposition** — a Persian word
+meaning "authentic" for an authentication company beats a merely beautiful word. But stop
+short of plainly describing the product: aim for names that *hint* (suggestive), use an
+unrelated real word (arbitrary), or are invented (coined). These are both more memorable
+and far more likely to be registrable than a descriptive name.
+
+**3c. Apply the professional-quality bar.** Reject a candidate if it:
+- is hard to say or spell in the target market after one hearing;
+- carries a tone that clashes with the field (playful for a law firm, clinical for a toy brand);
+- needs an accent or non-Latin character to read correctly;
+- is longer than about three syllables, or looks like a random invented string;
+- sounds like a personal first name when the business needs institutional credibility.
+
+**3d. Sanity-check against the market's naming conventions.** Names carry different weight
+by region — what reads as confident in the Gulf may read as overblown in the Nordics.
+Make sure the name would not look out of place next to established firms in that field
+and that market.
+
+**3e. Run every surviving candidate through the Step 2 checks**, then present each with:
+- its origin meaning in one line;
+- one line on why it fits this specific industry;
+- one line on how it reads in the target market.
+
+Offer 3–5 strong candidates rather than a long weak list.
 
 ## Step 4 — Present the results
 
@@ -56,9 +106,20 @@ Match the format to what the person asked for. If they don't specify, default to
 - **Detailed report** — per name: origin meaning, pronunciation in the target market, red flags, tone fit, and a plain verdict.
 - **Pass/fail table** — names down the side, target markets across the top, a simple pass / caution / fail in each cell. Good for comparing many names or many markets fast.
 
-End with the 2–3 strongest options and a clear reason for each.
+End with the 2–3 strongest options and a clear reason for each. Never present a single
+favourite as if it were the only option — the point of the process is a real comparison.
 
-## Always flag before finishing
+## Step 5 — Hand over the verification steps
 
-- **Domain and trademark aren't checked here.** The name may be taken. Tell the person to verify domain availability and trademark/business-registry conflicts separately — this skill can't confirm them.
-- **Native-speaker gut check.** For the finalists, a quick check with a native speaker of each target market catches things no analysis will.
+A name is not finished when it reads well; it is finished when it can be owned and used.
+Close every session by telling the founder plainly what still has to be checked, and be
+clear that this skill cannot confirm any of it:
+
+- **Trademark.** Search the register in each target market for conflicting marks. This is
+  a formal stage of naming, not an afterthought — a name that survives every check here
+  is still worthless if someone already owns it. Recommend a trademark attorney before
+  committing money to the name.
+- **Domain and handles.** Check domain availability and the social handles that matter.
+- **Business registry.** Check the company register in the home country.
+- **Native-speaker gut check.** For the finalists, a quick check with a native speaker of
+  each target market catches things no analysis will.
