@@ -1,5 +1,8 @@
 # Business Name Fit — a Claude Skill
 
+![business-name-fit demo](name_fit_user_experience.gif)
+
+
 A skill for [Claude](https://claude.ai) that helps founders pick or check a business,
 startup, or product name that stays **authentic to their cultural origin** while working
 well in the **markets they want to sell into**.
