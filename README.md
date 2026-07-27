@@ -17,8 +17,8 @@ elsewhere. This skill catches that mismatch before it costs you.
 - Runs every name through eight checks: hidden bad meanings, look-alike words,
   pronunciation, spelling, legal distinctiveness, how it sounds aloud, tone fit for your
   industry, and origin authenticity.
-- Presents results as a quick shortlist, a detailed report, or a pass/fail table —
-  whichever you ask for.
+- Answers in a compact table by default — everything readable at a glance — and only
+  expands into detail if you ask for it.
 
 ## Why it exists
 

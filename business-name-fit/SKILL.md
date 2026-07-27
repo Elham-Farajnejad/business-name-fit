@@ -17,12 +17,19 @@ This skill both **suggests new names** and **checks names the person already has
 
 ## Step 1 — Gather the essentials
 
-Ask only for what's missing from the conversation. Keep it to a couple of short questions.
+If the skill is invoked with nothing else to go on (e.g. just `/business-name-fit`, no
+name, no context), don't launch into the full list below. Ask one question first, and
+wait for the answer:
+
+> Are you looking to **find a new name**, or **check one you already have**?
+
+Once that's answered, ask only for what's still missing from the conversation. Keep it to
+a couple of short questions.
 
 1. **Origin** — the founder's culture/language or the company's home base (e.g. Persian/Iran, Swedish/Sweden, Mandarin/China).
 2. **Target market(s)** — where the business will operate (e.g. international/English-speaking, EU, China, Arabic-speaking countries). There can be more than one.
 3. **Business area** — the industry or field, because tone matters (a law firm and a candy brand need different feels).
-4. **Mode** — do they want new name ideas, a check of names they already have, or both?
+4. **Mode** — do they want new name ideas, a check of names they already have, or both? (Already answered above if the skill opened with the find-or-check question.)
 5. **Existing names** — if they're checking, collect the candidates.
 6. **Desired feel** (optional) — modern, traditional, playful, premium, etc.
 
@@ -91,35 +98,40 @@ by region — what reads as confident in the Gulf may read as overblown in the N
 Make sure the name would not look out of place next to established firms in that field
 and that market.
 
-**3e. Run every surviving candidate through the Step 2 checks**, then present each with:
-- its origin meaning in one line;
-- one line on why it fits this specific industry;
-- one line on how it reads in the target market.
+**3e. Run every surviving candidate through the Step 2 checks**, then hand off to Step 4
+to present them.
 
 Offer 3–5 strong candidates rather than a long weak list.
 
 ## Step 4 — Present the results
 
-Match the format to what the person asked for. If they don't specify, default to the detailed report.
+Default to a **compact table, every time** — checking existing names and presenting new
+suggestions both work this way. The whole answer should be readable at a glance: no
+scrolling through prose to find the verdict.
 
-- **Shortlist** — each name with a one-line note. Good for quick browsing.
-- **Detailed report** — per name: origin meaning, pronunciation in the target market, red flags, tone fit, and a plain verdict.
-- **Pass/fail table** — names down the side, target markets across the top, a simple pass / caution / fail in each cell. Good for comparing many names or many markets fast.
+- **Checking names** — one row per name (one row per name × market if there's more than
+  one market). Columns for whatever checks actually mattered for that name — not all
+  eight every time. Cells hold a symbol plus 2–4 words (e.g. `❌ reads as slur (EN)`,
+  `⚠️ crowded namespace`), never a sentence.
+- **Suggesting names** — one row per candidate: origin meaning, target-market read,
+  verdict. Same rule — phrases in cells, not paragraphs.
 
-End with the 2–3 strongest options and a clear reason for each. Never present a single
-favourite as if it were the only option — the point of the process is a real comparison.
+After the table, add at most one short line naming the 2–3 strongest options. Never
+present a single favourite as if it were the only option.
+
+Stop there. Do **not** add check-by-check breakdowns, reasoning paragraphs, or a written
+verdict for each name unless the person asks for more — "why", "explain", "tell me more
+about X", "detailed report" — in which case expand only the part they asked about, still
+as briefly as clarity allows.
 
 ## Step 5 — Hand over the verification steps
 
-A name is not finished when it reads well; it is finished when it can be owned and used.
-Close every session by telling the founder plainly what still has to be checked, and be
-clear that this skill cannot confirm any of it:
+Close every session with a short list of what still has to be checked — one line each,
+this skill cannot confirm any of it:
 
-- **Trademark.** Search the register in each target market for conflicting marks. This is
-  a formal stage of naming, not an afterthought — a name that survives every check here
-  is still worthless if someone already owns it. Recommend a trademark attorney before
-  committing money to the name.
-- **Domain and handles.** Check domain availability and the social handles that matter.
-- **Business registry.** Check the company register in the home country.
-- **Native-speaker gut check.** For the finalists, a quick check with a native speaker of
-  each target market catches things no analysis will.
+- **Trademark** — search the register in each target market before spending on the name (a formal step, not an afterthought).
+- **Domain & handles** — availability where the founder will actually use them.
+- **Business registry** — the company register in the home country.
+- **Native-speaker gut check** — a real speaker in each target market, for the finalists.
+
+Expand any of these only if asked.
