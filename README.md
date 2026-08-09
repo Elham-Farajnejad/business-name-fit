@@ -85,6 +85,14 @@ The checks aren't invented — they draw on three freely downloadable sources, s
 - **Pogacar et al. (2015), *Sounds good*** — how a name's sounds shape the impression it
   makes, and why those effects don't transfer automatically between languages.
 
+## More skills like this
+
+- **[Project Planning & Journaling](https://github.com/mh-mansouri/Project-Planning-Journaling)** —
+  scopes a project before any code is written, then keeps a living, resumable
+  documentation journal with a weekly routine review.
+- **[Embedded / IoT Mentor](https://github.com/mh-mansouri/embedded-iot-mentor)** —
+  picks the microcontroller, board, and toolchain for a hardware project, MVP-first.
+
 ## Contributing
 
 Improvements are very welcome — especially language and cultural knowledge that helps the
